@@ -38,8 +38,8 @@ App.get("/checkwl", (request, res) => {  // checks whitelist
   if(ShoppyIDS) {
     if (db.get(Settings.UsersDataStart+ThereKey)) {
       if (robloxUser === db.get(Settings.UsersDataStart+ThereKey)) {
-        res.send("nonigger") // CHANGE THIS TO MAKE THE WHITELIST MORE SECURE!
-        return "nonigger";
+        res.send("Correct") // CHANGE THIS TO MAKE THE WHITELIST MORE SECURE!
+        return "Correct";
       }
       else
       {
@@ -187,5 +187,5 @@ client.on("ready", () => {
   client.user.setActivity("Anthony jerking off", { type: "WATCHING"})
 })
 
-client.login("ODg0ODg2MzYxODI2NTQ1Njk1.YTfApQ.ThjpFDhljOPh898rnXUH-SRlk7M")
+client.login("")
 
